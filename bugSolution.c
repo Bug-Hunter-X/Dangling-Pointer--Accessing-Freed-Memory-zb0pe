@@ -1,0 +1,1 @@
+int main() {int* ptr = (int*) malloc(sizeof(int)); *ptr = 10; /* ... use ptr ... */ free(ptr); ptr = NULL; /* Set ptr to NULL after freeing to prevent dangling pointer */ return 0;} 
